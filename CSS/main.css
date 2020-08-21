@@ -131,6 +131,17 @@ main {
     width: 12%;
 }
 
+.primeiro_botao_in{
+    font-family: "Karla", sans-serif;
+    width: 154.45px;
+    height: 48;
+    background-color:#295e66;
+    color: white;
+    border-radius: 36px;
+    border: 2px solid #295e66; /* Green */
+}
+
+
 
 
 .logoGd {
@@ -230,6 +241,15 @@ main {
   
 }
 
+.subtitulo_2 {  
+    font-size: 18px;   
+    position: center;
+    padding-left: 100px;
+    line-height: 24px;
+    color: #222222
+    
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -299,7 +319,7 @@ main {
 #teste_3 {
     
     width: 1150px;
-    height: 550px;
+    height: 650px;
     background-color: #222222
 
 }
@@ -307,6 +327,37 @@ main {
 .id_text{
     margin-right: 50px;
 } 
+
+.id_text_move{
+padding-left:370px;
+}
+
+@media(max-width:857px){
+    .teste_3{
+        height: 800px;
+    }
+}
+.in{
+    width: 60%;
+    
+}
+.move_for{
+    margin-left:10%;
+}
+.button_sec4{
+
+    width: 130.670px;
+    height:58;
+    background-color:#295e66;
+    color: white;
+    
+    
+}
+
+.text_bloco{
+    margin-right: 20%;
+    display:block;
+}
 
 .div4{
     padding-top: 45px;
@@ -365,6 +416,8 @@ main {
     
     margin-top: 0px;
 }
+
+
 
 .primeiro_botao{
     width: 130.670px;

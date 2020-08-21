@@ -11,7 +11,7 @@ body {
     list-style: none;
     box-sizing: border-box;
     
-    
+
 }
 
 header{
@@ -70,7 +70,7 @@ nav ul li a{
     display: none;
 }
 
-@media(max-width:952px){
+@media(max-width:858px){
     label.LogoJ{
         font-size: 30px;
         padding-left: 50px;
@@ -139,8 +139,28 @@ main {
     color: white;
     border-radius: 36px;
     border: 2px solid #295e66; /* Green */
+    margin-bottom: 15%;
 }
 
+
+.flex_number{
+    display :flex;
+}
+.text-m{
+    padding-right: 8px;
+}
+.numeber_move{
+    margin-left:  10%;
+    margin-bottom:  2%;
+    margin-top: 3%;
+}
+
+.b {
+    display: flex;
+}
+.Sec1_bloco_2{
+    display: flex;
+}
 
 
 
@@ -155,6 +175,7 @@ main {
         font-family: 'Poppins', sans-serif;
         clear: both;
         font-weight:bold;   
+        margin-top: 30%;
 }
 
 .Section_2{
@@ -194,6 +215,8 @@ main {
         font-family: 'Poppins', sans-serif;
         clear: both;
         font-weight:bold;
+        margin-top: 80px;
+        margin-bottom: 80px;
    
 }
 
@@ -224,6 +247,7 @@ main {
     padding-left: 95px;
     clear: both;
     font-weight: 700;
+    font-size: 50px; 
 }
 
 .subtitulo {
@@ -332,7 +356,7 @@ main {
 padding-left:370px;
 }
 
-@media(max-width:857px){
+@media(max-width:858px){
     .teste_3{
         height: 800px;
     }
@@ -350,9 +374,22 @@ padding-left:370px;
     height:58;
     background-color:#295e66;
     color: white;
+    border: 2px solid #265E66;
     
     
 }
+.button_sec5{
+    margin-top: 5%;
+    margin-left: 1%;
+    width: 120.670px;
+    height:48;
+    background-color:#295e66;
+    color: white;
+    border: 2px solid #265E66;
+    
+    
+}
+
 
 .text_bloco{
     margin-right: 20%;
@@ -401,6 +438,8 @@ padding-left:370px;
 }
 
 
+
+
 .primeiro_bloco {
     background-color : #265E66;
     width: 450.66px;
@@ -417,14 +456,17 @@ padding-left:370px;
     margin-top: 0px;
 }
 
-
+.move_contato{
+    margin-top:10%;
+    
+}
 
 .primeiro_botao{
     width: 130.670px;
     height: 48;
     background-color: white;
     color: black;
-    border: 2px solid #4CAF50; /* Green */
+     border: 2px solid #265E66;
     border-radius: 36px;
 }
 
